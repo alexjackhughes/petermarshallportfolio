@@ -18,7 +18,8 @@ export default function IndexPage() {
         description="Creative Hubspot wanted a modern site that reflected the diverse nature of their business. Working with the company’s in-house designers, I wrote copy that explained every facet of their operation in a succinct and readable way."
         url="https://hubspot.com"
         image="hubspot.png"
-        align="left"
+        switch={false}
+        hasBackground={false}
       />
       <Quotes />
       <Testimonials />
