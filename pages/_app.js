@@ -15,7 +15,10 @@ function MyApp({ Component, pageProps }) {
         <title>
           Peter Marshall | Freelance Journalist, Copywriter, Proof Reader
         </title>
-        <link rel="shortcut icon" href="https://alexhughes.io/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          href="https://petermarshallportfolio.com/favicon.ico"
+        />
         <meta name="description" content={description} />
         <meta
           property="og:title"
@@ -23,13 +26,10 @@ function MyApp({ Component, pageProps }) {
         />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://petermarshallportfolio.co.uk/"
-        />
+        <meta property="og:url" content="https://petermarshallportfolio.com/" />
         <meta
           property="og:image"
-          content="https://petermarshallportfolio.co.uk/template.png"
+          content="https://petermarshallportfolio.com/template.png"
         />
       </Head>
       <Component {...pageProps} />

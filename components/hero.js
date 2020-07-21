@@ -3,7 +3,8 @@ export default function Hero() {
     <div
       class="py-20 bg-cover bg-center"
       style={{
-        backgroundImage: "url(http://localhost:3000/images/petermarshall.png)",
+        backgroundImage:
+          "url(https://petermarshallportfolio.com/images/petermarshall.png)",
       }}
     >
       <div class="container mx-auto m-56 text-center">
