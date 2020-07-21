@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
     <section class="p-4 bg-gray-100">
+      <h3 class="text-4xl text-gray-800 font-bold leading-none mb-8 text-center mt-10">
+        Contact me
+      </h3>
       <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0 text-center">
         <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0 my-10">
           <span className="text-blue-300 icon fad fa-3x fa-phone is-large mb-5" />

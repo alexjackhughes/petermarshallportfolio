@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content={description} />
         <meta
           property="og:title"
-          content="React Engineer & Startup Founder | Alex Jack Hughes"
+          content="Peter Marshall | Freelance Journalist, Copywriter, Proof Reader"
         />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
