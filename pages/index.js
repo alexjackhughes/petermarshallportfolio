@@ -21,8 +21,48 @@ export default function IndexPage() {
         switch={false}
         hasBackground={false}
       />
+      <Expand
+        title="Aston International"
+        description="Working with the award-winning designers at Ashgrove Marketing, I wrote the site copy for corporate service and trust provider Aston International.  After interviewing the Aston team, we decided to avoid overwhelming visitors with too much information. For this reason the copy is short, simple, and to the point."
+        url="https://www.aston.co.im/"
+        image="hubspot.png"
+        switch={true}
+        hasBackground={false}
+      />
       <Quotes />
+      <Expand
+        title="Hootsuite"
+        description="I was the primary copywriter for a series of Hootsuite’s case studies. After transcribing webinars and consulting supporting documents, I presented the most important information regarding each project an informative and succinct way."
+        url="https://hootsuite.com"
+        image="hubspot.png"
+        switch={true}
+        hasBackground={false}
+      />
+      <Expand
+        title="HVO Search"
+        description="For over two years I have written a weekly blog for executive search firm HVO Search. I also compile a weekly newsletter and, after transcribing from audio, write-up HVO Search live events."
+        url="https://www.hvosearch.com/"
+        image="hubspot.png"
+        switch={false}
+        hasBackground={false}
+      />
       <Testimonials />
+      <Expand
+        title="InPlayer"
+        description="InPlayer require ongoing well-researched industry update posts. By aggregating information from different industry research and news platforms, I write opinion pieces that give structure and narrative to statistics and sensational headlines."
+        url="https://inplayer.com/"
+        image="hubspot.png"
+        switch={false}
+        hasBackground={false}
+      />
+      <Expand
+        title="Bookmundi"
+        description="bookmundi wanted a series of shareable blogs that explained and detailed some of their most popular destinations. I created a series of evergreen “top-ten” articles that continue to bring in significant traffic to the bookmundi site."
+        url="https://www.bookmundi.com/"
+        image="hubspot.png"
+        switch={true}
+        hasBackground={false}
+      />
       <Contact />
       <Footer />
     </div>

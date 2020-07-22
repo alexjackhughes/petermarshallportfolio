@@ -15,6 +15,8 @@ export default function Expand(props) {
             <a
               class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow"
               href={props.url}
+              target="_blank"
+              rel="noopener"
             >
               Visit website
             </a>

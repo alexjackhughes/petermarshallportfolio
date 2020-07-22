@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <section class="py-8 px-4">
+    <section class="py-8 px-4 bg-gray-100">
       <div class="flex flex-wrap">
         <div class="md:w-1/2 py-4 md:px-16 mb-4 md:mb-0">
           <p class="mb-4 text-gray-500">
