@@ -27,7 +27,7 @@ export default function IndexPage() {
         title="Aston International"
         description="Working with the award-winning designers at Ashgrove Marketing, I wrote the site copy for corporate service and trust provider Aston International.  After interviewing the Aston team, we decided to avoid overwhelming visitors with too much information. For this reason the copy is short, simple, and to the point."
         url="https://www.aston.co.im/"
-        image="astoninternation.png"
+        image="astoninternational.png"
         switch={true}
         hasBackground={false}
       />

@@ -8,8 +8,8 @@ export default function Hero() {
       }}
     >
       <div class="container mx-auto m-56 text-center">
-        <h2 class="text-4xl text-gray-800 font-bold">Peter Marshall</h2>
-        <h3 class="text-2xl mb-8 text-gray-600">
+        <h2 class="text-6xl text-white font-bold">Peter Marshall</h2>
+        <h3 class="text-2xl mb-8 text-gray-200">
           Freelance Copywriter, Copy Editor, Proofreader
         </h3>
 
