@@ -7,6 +7,8 @@ import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import Contact from "../components/contact";
 
+// https://web.archive.org/web/20180806153321/http://petermarshallportfolio.com/
+
 export default function IndexPage() {
   return (
     <div>
@@ -25,7 +27,7 @@ export default function IndexPage() {
         title="Aston International"
         description="Working with the award-winning designers at Ashgrove Marketing, I wrote the site copy for corporate service and trust provider Aston International.  After interviewing the Aston team, we decided to avoid overwhelming visitors with too much information. For this reason the copy is short, simple, and to the point."
         url="https://www.aston.co.im/"
-        image="hubspot.png"
+        image="astoninternation.png"
         switch={true}
         hasBackground={false}
       />
@@ -34,7 +36,7 @@ export default function IndexPage() {
         title="Hootsuite"
         description="I was the primary copywriter for a series of Hootsuite’s case studies. After transcribing webinars and consulting supporting documents, I presented the most important information regarding each project an informative and succinct way."
         url="https://hootsuite.com"
-        image="hubspot.png"
+        image="hootsuite.png"
         switch={true}
         hasBackground={false}
       />
@@ -42,7 +44,7 @@ export default function IndexPage() {
         title="HVO Search"
         description="For over two years I have written a weekly blog for executive search firm HVO Search. I also compile a weekly newsletter and, after transcribing from audio, write-up HVO Search live events."
         url="https://www.hvosearch.com/"
-        image="hubspot.png"
+        image="hvosearch.png"
         switch={false}
         hasBackground={false}
       />
@@ -51,7 +53,7 @@ export default function IndexPage() {
         title="InPlayer"
         description="InPlayer require ongoing well-researched industry update posts. By aggregating information from different industry research and news platforms, I write opinion pieces that give structure and narrative to statistics and sensational headlines."
         url="https://inplayer.com/"
-        image="hubspot.png"
+        image="inplayer.png"
         switch={false}
         hasBackground={false}
       />
@@ -59,7 +61,7 @@ export default function IndexPage() {
         title="Bookmundi"
         description="bookmundi wanted a series of shareable blogs that explained and detailed some of their most popular destinations. I created a series of evergreen “top-ten” articles that continue to bring in significant traffic to the bookmundi site."
         url="https://www.bookmundi.com/"
-        image="hubspot.png"
+        image="bookmundi.png"
         switch={true}
         hasBackground={false}
       />

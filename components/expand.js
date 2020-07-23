@@ -24,8 +24,9 @@ export default function Expand(props) {
         </div>
         <div class={`lg:w-1/2 px-2 order-1 ${!props.switch && "pr-2"}`}>
           <img
-            src={`https://petermarshallportfolio.com/images/${props.image}`}
+            src={`https://petermarshallportfolio.com/images/clients/${props.image}`}
             alt={props.title}
+            className="rounded-lg shadow-lg"
           />
         </div>
       </div>
