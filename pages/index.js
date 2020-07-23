@@ -1,3 +1,5 @@
+import { Element } from "react-scroll";
+
 import Nav from "../components/nav";
 import Hero from "../components/hero";
 import About from "../components/about";
@@ -13,16 +15,22 @@ export default function IndexPage() {
   return (
     <div>
       <Nav />
-      <Hero />
-      <About />
-      <Expand
-        title="Creative Hubspot"
-        description="Creative Hubspot wanted a modern site that reflected the diverse nature of their business. Working with the company’s in-house designers, I wrote copy that explained every facet of their operation in a succinct and readable way."
-        url="https://hubspot.com"
-        image="hubspot.png"
-        switch={false}
-        hasBackground={false}
-      />
+      <Element id="home" name="home">
+        <Hero />
+      </Element>
+      <Element id="about" name="about">
+        <About />
+      </Element>
+      <Element id="portfolio" name="portfolio">
+        <Expand
+          title="Creative Hubspot"
+          description="Creative Hubspot wanted a modern site that reflected the diverse nature of their business. Working with the company’s in-house designers, I wrote copy that explained every facet of their operation in a succinct and readable way."
+          url="https://hubspot.com"
+          image="hubspot.png"
+          switch={false}
+          hasBackground={false}
+        />
+      </Element>
       <Expand
         title="Aston International"
         description="Working with the award-winning designers at Ashgrove Marketing, I wrote the site copy for corporate service and trust provider Aston International.  After interviewing the Aston team, we decided to avoid overwhelming visitors with too much information. For this reason the copy is short, simple, and to the point."
@@ -31,7 +39,9 @@ export default function IndexPage() {
         switch={true}
         hasBackground={false}
       />
-      <Quotes />
+      <Element id="testimonial" name="testimonial">
+        <Quotes />
+      </Element>
       <Expand
         title="Hootsuite"
         description="I was the primary copywriter for a series of Hootsuite’s case studies. After transcribing webinars and consulting supporting documents, I presented the most important information regarding each project an informative and succinct way."
@@ -65,7 +75,9 @@ export default function IndexPage() {
         switch={true}
         hasBackground={false}
       />
-      <Contact />
+      <Element id="contact" name="contact">
+        <Contact />
+      </Element>
       <Footer />
     </div>
   );
