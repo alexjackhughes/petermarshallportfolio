@@ -13,7 +13,7 @@ export default function Expand(props) {
           <p class="mb-8 text-gray-500 leading-relaxed">{props.description}</p>
           <div>
             <a
-              class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow"
+              class="text-sm text-blue-500 rounded-lg py-3 px-8 shadow-md uppercase leading-none tracking-wider bg-white border hover:text-white hover:bg-blue-500 border-blue-500 hover:border-transparent"
               href={props.url}
               target="_blank"
               rel="noopener"

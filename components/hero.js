@@ -13,8 +13,8 @@ export default function Hero() {
           Freelance Copywriter, Copy Editor, Proofreader
         </h3>
 
-        <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-          About me
+        <button class="bg-white text-gray-700 rounded-lg py-4 px-8 shadow-md uppercase leading-none tracking-wider hover:bg-gray-200">
+          Learn more
         </button>
       </div>
     </div>
