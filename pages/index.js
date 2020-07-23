@@ -9,8 +9,6 @@ import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import Contact from "../components/contact";
 
-// https://web.archive.org/web/20180806153321/http://petermarshallportfolio.com/
-
 export default function IndexPage() {
   return (
     <div>
